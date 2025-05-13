@@ -1,11 +1,10 @@
-import React from "react";
 import Hero from '../img/Hero.png';
 
 export default function HeroSection() {
   return (
-    <section className="flex flex-col-reverse h-[80vh] lg:flex-row items-center justify-between mt-20 px-6 py-12 max-w-7xl mx-auto">
+    <section className="flex flex-col-reverse h-[80vh] lg:flex-row items-center justify-between mt-20 sm:mt-36 md:mt-20 px-6 py-12 max-w-7xl mx-auto">
       {/* Left Content */}
-      <div className="w-full lg:w-1/2 md:text-center  lg:text-left space-y-6">
+      <div className="w-full lg:w-1/2 md:text-center sm:mt-10 lg:text-left space-y-6">
         <h1 className="text-3xl md:text-5xl font-bold text-[#1c0b5c]">
           Everything you need to <br /> create a website
         </h1>
@@ -33,7 +32,7 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="flex items-center justify-center lg:justify-start gap-2 pt-2 text-sm text-gray-600">
-          <span>🔒 30-day money-back guarantee</span>
+  
         </div>
       </div>
 
@@ -42,7 +41,7 @@ export default function HeroSection() {
         <img
           src={Hero}
           alt="Hero Illustration"
-          className="max-w-full h-auto md:scale-110 object-contain"
+          className="max-w-full h-auto object-contain"
         />
       </div>
     </section>

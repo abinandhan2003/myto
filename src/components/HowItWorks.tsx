@@ -1,27 +1,28 @@
 
+import { Description } from '@radix-ui/react-toast';
 import { FileText, Rocket, Users } from 'lucide-react';
 
 const HowItWorks = () => {
   const steps = [
     {
       icon: <FileText size={48} className="text-primary" />,
-      title: "1. Choose Your Template",
-      description: "Select from our professionally designed templates tailored specifically for schools and small businesses."
+      title: "1. Collect user requirements",
+      description: "We gather your needs and preferences to create a tailored website that meets your goals."
     },
     {
       icon: <Users size={48} className="text-primary" />,
-      title: "2. Customize Your Content",
-      description: "Easily add your text, images, and branding using our intuitive drag-and-drop editor. No technical skills required."
+      title: "2. Design and Develop",
+      description: "Our team designs and develops your website, ensuring it is user-friendly and visually appealing.",
     },
     {
       icon: <Rocket size={48} className="text-primary" />,
       title: "3. Publish & Launch",
-      description: "Publish your website with a single click. Get your professional online presence up and running in minutes, not months."
+      description: "Publish your website with a single click. Get your professional online presence up and running in minutes."
     }
   ];
 
   return (
-    <section id="how-it-works" className="section bg-white">
+    <section id="how-it-works" className="section">
       <div className="container-custom">
         <div className="text-center max-w-xl mx-auto mb-16 opacity-0 animate-fade-up">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">How It Works</h2>
@@ -32,7 +33,7 @@ const HowItWorks = () => {
           {steps.map((step, index) => (
             <div 
               key={index} 
-              className="bg-page-background rounded-xl p-8 shadow-sm transition-all duration-300 hover:shadow-md opacity-0 animate-fade-up card-hover"
+              className="bg-white rounded-xl p-8 shadow-sm transition-all duration-300 hover:shadow-md opacity-0 animate-fade-up card-hover"
               style={{ animationDelay: `${index * 200}ms` }}
             >
               <div className="mb-6 flex justify-center">
