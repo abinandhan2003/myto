@@ -7,7 +7,7 @@ const Testimonials = () => {
       id: 1,
       name: "Senthilkumar R K",
       role: "Principal, BVS School , bvhss.com",
-      avatar: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=150&h=150&fit=crop&crop=faces",
+      avatar: "https://i.postimg.cc/yYLyKhf2/image.webp",
       content: "Our school's new website has transformed how we communicate with parents and the community. The templates were perfect for our needs and the setup process was incredibly smooth.",
       rating: 5
     },
@@ -15,7 +15,7 @@ const Testimonials = () => {
       id: 2,
       name: "Krishnakumar R",
       role: "CEO, Nexcap",
-      avatar: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=150&h=150&fit=crop&crop=faces",
+      avatar: "https://i.postimg.cc/yx9ThW0B/IMG-20240821-145619521.jpg",
       content: "As a small business owner, I never had time to build a proper website. This platform made it simple and affordable. Our online orders have increased by 30% since launch.",
       rating: 5
     },
@@ -25,24 +25,25 @@ const Testimonials = () => {
       role: "Fullstack Developer, Celcom",
       avatar: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?w=150&h=150&fit=crop&crop=faces",
       content: "The customization options allowed us to perfectly match our school's branding. Parents love the new site and enrollment inquiries have doubled this semester.",
-      rating: 4
+      rating: 5
     },
-    {
-      id: 3,
-      name: "Kumaresan R",
-      role: "PLM Enineer, Mayilon",
-      avatar: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?w=150&h=150&fit=crop&crop=faces",
-      content: "The customization options allowed us to perfectly match our school's branding. Parents love the new site and enrollment inquiries have doubled this semester.",
-      rating: 4
-    },
-    {
-      id: 3,
+     {
+      id: 4,
       name: "Jana Priya S P",
       role: "Fullstack Developer, Nexcap",
-      avatar: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?w=150&h=150&fit=crop&crop=faces",
-      content: "The customization options allowed us to perfectly match our school's branding. Parents love the new site and enrollment inquiries have doubled this semester.",
+      avatar: "https://i.postimg.cc/vBM12zg4/IMG-20240920-151754103.jpg",
+      content: "The platform's user-friendly interface made it easy for our team to manage content. The support team was always available to help with any questions we had.",
+      rating: 5
+    },
+    {
+      id: 5,
+      name: "Kumaresan R",
+      role: "PLM Enineer, Mayilon",
+      avatar: "https://i.postimg.cc/pd5bNJHB/Whats-App-Image-2025-04-23-at-4-50-17-PM.jpg",
+      content: "The website templates were a game-changer for us. We were able to launch our site in just a few days, and the feedback from our customers has been overwhelmingly positive.",
       rating: 4
-    }
+    },
+   
   ];
 
   return (
